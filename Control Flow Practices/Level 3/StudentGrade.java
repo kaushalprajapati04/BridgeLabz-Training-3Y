@@ -13,7 +13,7 @@ public class StudentGrade {
 
         int total = physics + chemistry + maths;
         double average = total / 3.0;
-       
+        
         System.out.printf("\nAverage Marks: %.2f\n", average);
 
         String grade, remarks;

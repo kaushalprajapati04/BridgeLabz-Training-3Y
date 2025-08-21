@@ -8,7 +8,7 @@ public class Abundantnumber {
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
                 sum += i;  
-            }
+            }     
         }
         if (sum > number) {
             System.out.println(number + " is an Abundant Number.");
