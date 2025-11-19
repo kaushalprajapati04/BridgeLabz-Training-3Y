@@ -1,0 +1,54 @@
+/* Basic Page Styling */
+body {
+    font-family: Georgia, serif;
+    line-height: 1.7;
+    padding: 40px;
+    background: #fafafa;
+    color: #333;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.subheading {
+    color: #555;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 25px;          /* Consistent spacing between paragraphs */
+    text-align: justify;
+}
+
+/* First letter styling */
+p::first-letter {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* First line styling */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Custom <mark> styling */
+mark {
+    background: #ffe08a;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Blockquote styling */
+blockquote {
+    border-left: 4px solid #0066cc;
+    padding-left: 20px;
+    background: #eaf3ff;
+    font-style: italic;
+    margin: 30px 0;
+}

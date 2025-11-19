@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Section base style */
+.section {
+    padding: 80px 40px;
+    text-align: center;
+    border-bottom: 4px solid #eee;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: auto;
+}
+
+/* Section 1 — Background Image + Parallax */
+.section-bg-image {
+    background-image: url("paris.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  /* Parallax effect */
+    color: white;
+}
+
+/* Section 2 — Linear Gradient */
+.section-linear {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #222;
+}
+
+/* Section 3 — Radial Gradient + Parallax */
+.section-radial {
+    background: radial-gradient(circle, #a8edea, #fed6e3);
+    background-attachment: fixed;  /* Parallax effect */
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
