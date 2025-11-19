@@ -1,0 +1,52 @@
+/* Page Title */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* Container Layout */
+.team-container {
+    display: flex;              /* 3 columns */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;            /* Allows wrap on small screens */
+}
+
+/* Team Cards */
+.team-card {
+    background: #ffffff;
+    padding: 20px;              /* Box Model padding */
+    margin: 10px;               /* Box Model margin */
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    width: 30%;                 /* 3 cards per row */
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Highlighted Card (Team Lead) */
+.lead {
+    background: #e3f2fd;
+    border: 3px solid #1e88e5;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Text Styling */
+.team-card h2 {
+    margin-bottom: 5px;
+}
+
+.team-card h4 {
+    margin-top: 0;
+    color: #555;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .team-card {
+        width: 100%;    /* Switch to single column */
+    }
+}

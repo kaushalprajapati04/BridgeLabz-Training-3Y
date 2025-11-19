@@ -1,0 +1,60 @@
+/* General page styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header (Fixed at top) */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+}
+
+/* Main content */
+main {
+    margin-top: 100px; /* space for fixed header */
+    padding: 2rem;
+}
+
+/* Bio section */
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-img {
+    width: 150px;    /* px unit */
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #555;
+}
+
+/* Footer (stick bottom) */
+footer {
+    margin-top: auto;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
